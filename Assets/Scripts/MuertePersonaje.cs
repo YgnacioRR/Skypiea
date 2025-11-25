@@ -29,6 +29,8 @@ public class MuertePorCaida : MonoBehaviour
     void Morir()
     {
         Debug.Log("Jugador murió por caída");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        Time.timeScale = 1f; // por si en algún momento pausas el tiempo
+        SceneManager.LoadScene("PantallaMuerte"); // nombre de la escena de muerte
     }
 }

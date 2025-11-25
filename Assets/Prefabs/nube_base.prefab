@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 11243883721599905}
   - component: {fileID: 5144684923895673274}
   - component: {fileID: 401296778894626939}
-  - component: {fileID: 8862936518717829555}
-  - component: {fileID: 1557176208381912785}
   - component: {fileID: 5947320824384514416}
   - component: {fileID: -5408750310152646757}
   - component: {fileID: -6531277363761750257}
@@ -208,31 +206,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &8862936518717829555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151163305389538125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 829659be570fa7940bb099d4bf0c924e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CloudRandomSize
---- !u!114 &1557176208381912785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3151163305389538125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 940dae04cc0ffec438957f95994cdbff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CloudMovement
-  speed: 0.3
 --- !u!114 &5947320824384514416
 MonoBehaviour:
   m_ObjectHideFlags: 0
